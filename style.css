@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 657px;
+    background-image: url(./image/bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@font-face {
+    font-family: minhafonte;
+    src: url(./fontes/CormorantUpright-Bold.ttf);
+}
+.title{
+    color: white;
+    font-family: minhafonte;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+.card{
+    /* background-color: rgba(255, 255, 255, 0.404); */
+    background-size: cover;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    height: 100%;
+    max-height: 100px;
+    position: relative;
+    top:5%;
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+}
+.referencia{
+    font-size: 1vw;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    margin:0;
+    
+    
+    
+    
+}
+.subcard{
+   
+    margin-top: 50px;
+   
+    margin: auto;
+
+}
+
+
+
+.form{
+    line-height: 100px;
+    width: 100%; 
+   text-align: center; 
+   margin-top: 5px;
+}
+input{
+    color: white;
+    width: 100%;
+    max-width: 90px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    border:2px solid black;
+    background-color: rgb(68, 29, 29);
+  
+}
+
+.submit{
+    width: 100%;
+    max-width: 90px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+
+    
+    
+}
+.submit input{
+    width: 100%;
+    max-width: 90px;
+}
+
+.resultado h2{
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 18px;
+    
+    background-color: rgb(110, 58, 58);
+    
+}
+
+
+.resultado li{
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 15px;
+    
+    background-color: rgb(148, 78, 78);
+
+}
+@media screen and (max-width: 600px){
+    input{
+       max-width: 50px;
+        
+    }
+    .card{
+        max-width: 400px;
+        
+
+
+        
+    }
+    .resultado h2{
+        max-width: 200px;
+    }
+    .resultado li{
+        max-width: 200px;
+    }
+    body{
+        background-size:auto;
+        
+    }
+    
+}

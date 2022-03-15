@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./image/churrasqueira.png">
+
+</head>
+
+<body>
+    <!-- Título -->
+    <h1 class="title">Churrascômetro</h1>
+
+    <!-- Card principal -->
+    <div class="card">
+
+        <!-- Card inferior -->
+        <div class="subcard">
+
+            <!-- Formulário para informações -->
+
+            <div class="form">
+                <input id="adultos" type="number" placeholder="Adultos">
+                <input id="criança" type="number" placeholder="Crianças">
+                <input id="duraçao" type="number" placeholder="Duração(H)">
+                <input class="submit" type="submit" value="Calcular" onmousemove="style.background = 'rgb(122, 80, 80)'"
+                    onmouseout="style.background = 'rgb(68, 29, 29)'" onclick="churrasco()">
+
+
+            </div>
+
+
+            <!-- Lista com os resultados -->
+            <div class="resultado">
+
+                <h1 id="resultado">
+                    <ul></ul>
+                </h1>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Referência da foto  -->
+    <div class="referencia">
+        Photo by <a
+            href="https://unsplash.com/@_visalliart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Antonino
+            Visalli</a> on <a
+            href="https://unsplash.com/s/photos/fire-barbecue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+
+
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
